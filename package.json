@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://js-widgets.github.io/example-widget",
+  "homepage": "https://js-widgets.github.io/example-calculator",
   "dependencies": {
     "big.js": "^5.2.2",
     "postcss-wrap": "^0.0.4",
