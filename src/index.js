@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import App from './component/App';
 import './index.css';
-import Widget from './components/Widget';
 import * as serviceWorker from './core/bin/serviceWorker';
-import { IntlProvider } from 'react-intl';
-import i18n from './core/bin/i18n.js';
 
 /**
  * Renders the widget.
@@ -22,17 +21,7 @@ import i18n from './core/bin/i18n.js';
  */
 function render(instanceId, langCode, origin, cb) {
   const element = document.getElementById(instanceId);
-  const translation = new i18n(langCode || serviceWorker.getUrlLocale());
-
-  ReactDOM.render(
-    <React.StrictMode>
-      <IntlProvider locale={translation.locale} messages={translation.messages}>
-        <Widget element={element} />
-      </IntlProvider>
-    </React.StrictMode>,
-    element,
-    () => cb(element),
-  );
+  ReactDOM.render(<App />, element, () => cb(element));
   serviceWorker.unregister();
 }
 
