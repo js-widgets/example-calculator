@@ -6,10 +6,10 @@
     "css/main.css.map": "https://js-widgets.github.io/example-calculator/css/main.css.map",
     "index.html": "https://js-widgets.github.io/example-calculator/index.html",
     "js/main.js.LICENSE.txt": "https://js-widgets.github.io/example-calculator/js/main.js.LICENSE.txt",
-    "static/css/main.1988ae62.css.map": "https://js-widgets.github.io/example-calculator/static/css/main.1988ae62.css.map"
+    "static/css/main.5f7e2e23.css.map": "https://js-widgets.github.io/example-calculator/static/css/main.5f7e2e23.css.map"
   },
   "entrypoints": [
-    "static/css/main.1988ae62.css",
+    "static/css/main.5f7e2e23.css",
     "css/main.css",
     "js/main.js"
   ]
