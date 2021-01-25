@@ -1,16 +1,6 @@
 {
   "availableTranslations": ["en"],
   "description": "This example contains a calculator.",
-  "settingsSchema": {
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "fields": {
-        "type": "object",
-        "properties": {}
-      }
-    }
-  },
   "externalPeerDependencies": {
     "react": {
       "src": "https://unpkg.com/react@^17/umd/react.production.min.js"
